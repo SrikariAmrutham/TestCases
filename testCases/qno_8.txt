@@ -1,0 +1,91 @@
+testcase=1
+input:
+3 4
+A B C E
+S F C S
+A D E E
+SEE
+output:
+true
+
+testcase=2
+input:
+3 4
+A B C E
+S F C S
+A D E E
+ABCB
+output:
+false
+
+testcase=3
+input:
+2 2
+A B
+C D
+ABCD
+output:
+false
+
+testcase=4
+input:
+1 1
+A
+A
+output:
+true
+
+testcase=5
+input:
+1 1
+A
+B
+output:
+false
+
+testcase=6
+input:
+2 2
+A B
+C D
+AC
+output:
+true
+
+testcase=7
+input:
+3 3
+A A A
+A A A
+A A A
+AAAA
+output:
+true
+
+testcase=8
+input:
+2 2
+A B
+C D
+A
+output:
+true
+
+testcase=9
+input:
+2 2
+A B
+C D
+BD
+output:
+true
+
+testcase=10
+input:
+3 3
+A B C
+D E F
+G H I
+ABC
+output:
+true
